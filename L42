@@ -1,0 +1,11 @@
+import turtle
+liz = turtle.Turtle()
+liz.color("yellow")
+
+for side  in range(4):
+    if side == 2:
+        liz.color("cyan")
+    if side == 3:
+        liz.color("yellow")
+    liz.forward(100)
+    liz.right(90)
